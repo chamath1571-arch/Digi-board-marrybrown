@@ -1,0 +1,309 @@
+{
+  "users": [
+    {
+      "payrollId": "1001",
+      "name": "Sankar",
+      "role": "head_staff"
+    },
+    {
+      "payrollId": "1002",
+      "name": "Manager One",
+      "role": "shift_manager"
+    },
+    {
+      "payrollId": "1003",
+      "name": "Staff One",
+      "role": "staff"
+    },
+    {
+      "payrollId": "1004",
+      "name": "Staff Two",
+      "role": "staff"
+    }
+  ],
+  "sauceBatches": [
+    {
+      "id": "dbf5b758-4ded-4e20-ae85-977b476b7413",
+      "sauceType": "Cheese",
+      "portionsAdded": 25,
+      "portionsRemaining": 25,
+      "preparedBy": {
+        "payrollId": "1002",
+        "name": "Manager One",
+        "role": "shift_manager"
+      },
+      "createdAt": "2026-04-30T05:53:29.265Z",
+      "expiryAt": "2026-04-03T15:53",
+      "computedExpiryAt": null,
+      "status": "expired"
+    },
+    {
+      "id": "a462be4b-0c3b-46e5-bfac-95c817e574bd",
+      "sauceType": "Smoke BBQ",
+      "portionsAdded": 25,
+      "portionsRemaining": 25,
+      "preparedBy": {
+        "payrollId": "1002",
+        "name": "Manager One",
+        "role": "shift_manager"
+      },
+      "createdAt": "2026-04-30T05:54:13.107Z",
+      "expiryAt": "2026-05-03T15:54",
+      "computedExpiryAt": null,
+      "status": "safe"
+    },
+    {
+      "id": "8d2c8e6e-cd1b-476f-8a4a-3a8e490542d7",
+      "sauceType": "Garlic",
+      "portionsAdded": 3,
+      "portionsRemaining": 3,
+      "preparedBy": {
+        "payrollId": "1002",
+        "name": "Manager One",
+        "role": "shift_manager"
+      },
+      "createdAt": "2026-04-30T05:54:50.204Z",
+      "expiryAt": "2026-05-02T15:54",
+      "computedExpiryAt": null,
+      "status": "safe"
+    },
+    {
+      "id": "6f9be2c3-0d84-41d1-aeda-015fbb469358",
+      "sauceType": "Cheese",
+      "portionsAdded": 20,
+      "portionsRemaining": 20,
+      "preparedBy": {
+        "payrollId": "1002",
+        "name": "Manager One",
+        "role": "shift_manager"
+      },
+      "createdAt": "2026-04-30T05:57:49.066Z",
+      "expiryAt": "2026-05-03T15:57",
+      "computedExpiryAt": null,
+      "status": "safe"
+    },
+    {
+      "id": "759fe663-0e7c-440d-b8e5-a19a210c334f",
+      "sauceType": "Sweet & Sour",
+      "portionsAdded": 30,
+      "portionsRemaining": 30,
+      "preparedBy": {
+        "payrollId": "1002",
+        "name": "Manager One",
+        "role": "shift_manager"
+      },
+      "createdAt": "2026-04-30T06:55:26.530Z",
+      "expiryAt": "2026-05-03T16:55",
+      "computedExpiryAt": null,
+      "status": "safe"
+    },
+    {
+      "id": "fb1c8b1b-0344-43d3-babd-05056222786e",
+      "sauceType": "Coleslaw Large",
+      "portionsAdded": 5,
+      "portionsRemaining": 3,
+      "preparedBy": {
+        "payrollId": "1002",
+        "name": "Manager One",
+        "role": "shift_manager"
+      },
+      "createdAt": "2026-04-30T06:58:35.291Z",
+      "expiryAt": null,
+      "computedExpiryAt": "2026-05-03T06:58:35.291Z",
+      "status": "safe"
+    }
+  ],
+  "orders": [
+    {
+      "id": "aa337c6b-b6bd-4a38-b46f-877ca50176fc",
+      "items": [
+        {
+          "itemId": "s5",
+          "name": "Coleslaw Regular",
+          "qty": 2
+        },
+        {
+          "itemId": "ms1",
+          "name": "MB Value Pack",
+          "qty": 1
+        }
+      ],
+      "createdAt": "2026-04-29T17:55:05.097Z",
+      "createdBy": {
+        "payrollId": "1002",
+        "name": "Manager One",
+        "role": "shift_manager"
+      },
+      "totals": {
+        "itemCount": 3
+      }
+    },
+    {
+      "id": "0bbe8a14-0ccc-4e22-903f-1a8b6a61c588",
+      "items": [
+        {
+          "itemId": "bm2",
+          "name": "MB Spicy Burger",
+          "qty": 1
+        },
+        {
+          "itemId": "s6",
+          "name": "Coleslaw Large",
+          "qty": 1
+        }
+      ],
+      "createdAt": "2026-04-30T06:59:03.204Z",
+      "createdBy": {
+        "payrollId": "1002",
+        "name": "Manager One",
+        "role": "shift_manager"
+      },
+      "totals": {
+        "itemCount": 2
+      }
+    },
+    {
+      "id": "846a5ac1-923a-4aa6-af40-ccb8a4f0e12c",
+      "items": [
+        {
+          "itemId": "cm1",
+          "name": "2pc Chicken Meal",
+          "qty": 1
+        },
+        {
+          "itemId": "s6",
+          "name": "Coleslaw Large",
+          "qty": 1
+        }
+      ],
+      "createdAt": "2026-04-30T07:49:46.983Z",
+      "createdBy": {
+        "payrollId": "1002",
+        "name": "Manager One",
+        "role": "shift_manager"
+      },
+      "totals": {
+        "itemCount": 2
+      }
+    }
+  ],
+  "audits": [
+    {
+      "id": "77bc2094-fc51-4744-a8cf-6256cf82dee8",
+      "action": "CREATE_ORDER",
+      "entity": "Order",
+      "entityId": "aa337c6b-b6bd-4a38-b46f-877ca50176fc",
+      "performedBy": {
+        "payrollId": "1002",
+        "name": "Manager One",
+        "role": "shift_manager"
+      },
+      "timestamp": "2026-04-29T17:55:05.097Z",
+      "details": "Order with 3 items"
+    },
+    {
+      "id": "867484bb-398d-4bb0-ae85-5f63c6d294f1",
+      "action": "CREATE_SAUCE_BATCH",
+      "entity": "SauceBatch",
+      "entityId": "dbf5b758-4ded-4e20-ae85-977b476b7413",
+      "performedBy": {
+        "payrollId": "1002",
+        "name": "Manager One",
+        "role": "shift_manager"
+      },
+      "timestamp": "2026-04-30T05:53:29.265Z",
+      "details": "Added 25 portions of Cheese"
+    },
+    {
+      "id": "2c048799-8193-472c-a8a2-fbf25e796cf8",
+      "action": "CREATE_SAUCE_BATCH",
+      "entity": "SauceBatch",
+      "entityId": "a462be4b-0c3b-46e5-bfac-95c817e574bd",
+      "performedBy": {
+        "payrollId": "1002",
+        "name": "Manager One",
+        "role": "shift_manager"
+      },
+      "timestamp": "2026-04-30T05:54:13.107Z",
+      "details": "Added 25 portions of Smoke BBQ"
+    },
+    {
+      "id": "c11b4ea2-3c01-4f49-a466-6334041d2a2f",
+      "action": "CREATE_SAUCE_BATCH",
+      "entity": "SauceBatch",
+      "entityId": "8d2c8e6e-cd1b-476f-8a4a-3a8e490542d7",
+      "performedBy": {
+        "payrollId": "1002",
+        "name": "Manager One",
+        "role": "shift_manager"
+      },
+      "timestamp": "2026-04-30T05:54:50.204Z",
+      "details": "Added 3 portions of Garlic"
+    },
+    {
+      "id": "3c22770b-e391-476a-97d9-582c478f73a0",
+      "action": "CREATE_SAUCE_BATCH",
+      "entity": "SauceBatch",
+      "entityId": "6f9be2c3-0d84-41d1-aeda-015fbb469358",
+      "performedBy": {
+        "payrollId": "1002",
+        "name": "Manager One",
+        "role": "shift_manager"
+      },
+      "timestamp": "2026-04-30T05:57:49.066Z",
+      "details": "Added 20 portions of Cheese"
+    },
+    {
+      "id": "5e952c1a-768c-4191-bb70-0bf0b6bd1b58",
+      "action": "CREATE_SAUCE_BATCH",
+      "entity": "SauceBatch",
+      "entityId": "759fe663-0e7c-440d-b8e5-a19a210c334f",
+      "performedBy": {
+        "payrollId": "1002",
+        "name": "Manager One",
+        "role": "shift_manager"
+      },
+      "timestamp": "2026-04-30T06:55:26.530Z",
+      "details": "Added 30 portions of Sweet & Sour"
+    },
+    {
+      "id": "983edc8d-5e70-45c5-9516-bc37a3129e54",
+      "action": "CREATE_SAUCE_BATCH",
+      "entity": "SauceBatch",
+      "entityId": "fb1c8b1b-0344-43d3-babd-05056222786e",
+      "performedBy": {
+        "payrollId": "1002",
+        "name": "Manager One",
+        "role": "shift_manager"
+      },
+      "timestamp": "2026-04-30T06:58:35.291Z",
+      "details": "Added 5 portions of Coleslaw Large"
+    },
+    {
+      "id": "9cdd4da1-2f01-4598-906f-393654f1246c",
+      "action": "CREATE_ORDER",
+      "entity": "Order",
+      "entityId": "0bbe8a14-0ccc-4e22-903f-1a8b6a61c588",
+      "performedBy": {
+        "payrollId": "1002",
+        "name": "Manager One",
+        "role": "shift_manager"
+      },
+      "timestamp": "2026-04-30T06:59:03.204Z",
+      "details": "Order with 2 items"
+    },
+    {
+      "id": "01836b6c-197a-468b-83cc-96ce93dffa3c",
+      "action": "CREATE_ORDER",
+      "entity": "Order",
+      "entityId": "846a5ac1-923a-4aa6-af40-ccb8a4f0e12c",
+      "performedBy": {
+        "payrollId": "1002",
+        "name": "Manager One",
+        "role": "shift_manager"
+      },
+      "timestamp": "2026-04-30T07:49:46.983Z",
+      "details": "Order with 2 items"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "marrybrown-plenty-valley",
+  "version": "1.0.0",
+  "private": true,
+  "description": "MarryBrown Plenty Valley - DigiBoard Operations Dashboard & POS System",
+  "scripts": {
+    "dev": "concurrently \"npm run dev:api\" \"npm run dev:dashboard\" \"npm run dev:pos\"",
+    "dev:api": "cd apps/api && npm run dev",
+    "dev:dashboard": "cd apps/dashboard && npm run dev",
+    "dev:pos": "cd apps/pos && npm run dev",
+    "build": "npm run build:shared && npm run build:dashboard && npm run build:pos && npm run build:api",
+    "build:shared": "cd packages/shared && npm run build",
+    "build:dashboard": "cd apps/dashboard && npm run build",
+    "build:pos": "cd apps/pos && npm run build",
+    "build:api": "cd apps/api && npm run build",
+    "install:all": "npm install && npm run install:shared && npm run install:api && npm run install:dashboard && npm run install:pos",
+    "install:shared": "cd packages/shared && npm install",
+    "install:api": "cd apps/api && npm install",
+    "install:dashboard": "cd apps/dashboard && npm install",
+    "install:pos": "cd apps/pos && npm install"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ]
+}
