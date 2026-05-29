@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/Digi-board-marrybrown/pos/',
+  base: '/MB-Board/pos/',
   server: {
     port: 5174,
     proxy: {
