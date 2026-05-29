@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+node_modules/**/node_modules/
+
+# Build outputs
+dist/
+build/
+
+# Vite cache
+.vite/
+**/.vite/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# API data (optional - uncomment if you don't want to track data changes)
+# apps/api/data.json
